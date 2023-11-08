@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class DashBoardPage
+public class DashBoardPage 
 {
 	@FindBy(xpath="//h6[text()='Dashboard']")
 	private WebElement dashboard;
